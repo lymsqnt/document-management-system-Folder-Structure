@@ -1,7 +1,5 @@
-import Image from "next/image";
+import AccountRecovery from "@/components/auth/Account-recovery";
 
-export default function Home() {
-  return (
-<Home></Home>
-  );
+export default function AccountRecoveryPage() {
+  return <AccountRecovery />;
 }
